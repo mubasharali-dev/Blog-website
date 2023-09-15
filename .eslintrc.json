@@ -1,10 +1,12 @@
 {
   "extends": "next/core-web-vitals",
+  "files": ["*.js"],
   "rules": {
-    "react/no-unescaped-entities": "off",
+    "react/no-unescaped-entities": 1,
     "@next/next/no-page-custom-font": "off",
     "@next/next/link-passhref": "off",
     "@next/next/no-img-element": "off",
-    "react-hooks/exhaustive-deps": "off"
+    "react-hooks/exhaustive-deps": "off",
+    "react/jsx-key": "off"
   }
 }
